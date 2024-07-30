@@ -36,12 +36,12 @@ public class Student {
         this.marks = marks;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Student{" +
-//                "rollNo=" + rollNo +
-//                ", name='" + name + '\'' +
-//                ", marks=" + marks +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollNo=" + rollNo +
+                ", name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
 }
